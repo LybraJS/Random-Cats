@@ -13,8 +13,8 @@ body {
 }
 
 button {
-  width: 256px;
-  height: 128px;
+  width: 66%;
+  height: 50%;
   border: none;
   border-radius: 10px;
   background: linear-gradient(145deg, #e5b4c2, #ffd6e7);
@@ -23,7 +23,7 @@ button {
   font-size: 24px;
   cursor: pointer;
 
-  transition: all 0.1s ease-in;
+  transition: all 0.05s ease-in;
 }
 
 button:active {
@@ -55,12 +55,14 @@ button:active {
 
 img {
   max-height: 90%;
-  max-width: 90%;
+  min-width: 90%;
+  object-fit: cover;
 }
 
 #img-container {
   height: 70%;
   width: 90%;
+
   justify-content: center;
   align-items: center;
 }

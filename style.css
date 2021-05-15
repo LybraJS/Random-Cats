@@ -2,3 +2,38 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: green;
+}
+
+.flex {
+  display: flex;
+}
+
+#outer-container {
+  height: 80vh;
+  width: 50vw;
+  min-width: 512px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.outline {
+  border: 1px solid red;
+}
+
+#img-container {
+}
+
+#btn-container {
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
